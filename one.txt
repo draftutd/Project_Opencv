@@ -1,16 +1,13 @@
 sudo apt -y update
 sudo apt -y upgrade
 
-sudo apt-get remove x264 libx264-dev
+sudo apt -y remove x264 libx264-dev
  
 #We will Install dependencies now
  
 sudo apt -y install build-essential checkinstall cmake pkg-config yasm
 sudo apt -y install git gfortran
 sudo apt -y install libjpeg8-dev libjasper-dev libpng12-dev
- 
-# If you are using Ubuntu 14.04
-#sudo apt -y install libtiff4-dev
 
 # If you are using Ubuntu 16.04
 sudo apt -y install libtiff5-dev
